@@ -1,3 +1,4 @@
+import { Fragment } from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Card from "./components/Card";
@@ -9,10 +10,12 @@ function App() {
       <Navbar />
       <main>
         {data.map((info) => (
-          <>
+          <Fragment key={Math.random()}>
             <Card key={info.title} {...info} />
-            {data.indexOf(info) !== data.length - 1 && <hr />}
-          </>
+            {data.indexOf(info) !== data.length - 1 && (
+              <hr key={Math.random()} />
+            )}
+          </Fragment>
         ))}
       </main>
     </div>

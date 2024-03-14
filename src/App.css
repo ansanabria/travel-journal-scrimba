@@ -1,0 +1,98 @@
+/* General styles */
+
+.container {
+  max-width: 550px;
+  margin: 0 auto;
+  color: #2b283a;
+}
+
+/* Navbar styles */
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 0.5rem;
+  background: #f55a5a;
+  color: white;
+  padding: 1em;
+}
+
+h1 {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.world-icon {
+  width: 24px;
+  height: 24px;
+}
+
+/* Body styles */
+
+main {
+  padding: 2.8em 2.5em 1.75em;
+}
+
+hr {
+  opacity: 0.2;
+  margin: 1.15em 0;
+}
+
+/* Card styles */
+.card {
+  display: flex;
+}
+
+.card-image {
+  max-width: 125px;
+  height: 168px;
+  border-radius: 5px;
+  object-fit: cover;
+  margin-right: 1.2em;
+}
+
+.data-section {
+  margin: auto;
+}
+
+.tag-container {
+  display: flex;
+  width: fit-content;
+  column-gap: 0.25em;
+}
+
+.location-tag {
+  text-transform: uppercase;
+  font-size: 0.65rem;
+  letter-spacing: 0.1rem;
+}
+
+.gmaps-link {
+  color: #918e9b;
+  text-decoration: underline;
+  font-size: 0.65rem;
+}
+
+.misc-container {
+  display: flex;
+  align-items: baseline;
+  column-gap: 0.75em;
+  margin-bottom: 0.25em;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin-bottom: 0.6em;
+}
+
+.dates {
+  font-size: 0.65rem;
+  font-weight: 700;
+  margin-bottom: 0.6em;
+}
+
+.description {
+  font-size: 0.65rem;
+  line-height: 150%;
+}
